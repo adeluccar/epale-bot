@@ -12,7 +12,7 @@ TO-DO
 
 ### Cómo contribuir
 
-https://github.com/adeluccar/epale-bot/wiki/Como-Contribuir
+[Paso a paso para contribuir al proyecto](docs/como-contribuir.md)
 
 ### Créditos
 
