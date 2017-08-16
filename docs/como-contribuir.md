@@ -44,6 +44,9 @@ Crea una nueva rama y luego cambia git a esa rama.
 `git add file-name`  
 Añade los cambios en el archivo file-name al area de ensayo. Puedes continuar añadiendo otros archivos que se agrupen logicamente con ese commit que quieres realizar.
 
+`git add -A` o tambien `git add --all`
+Si usamos este parametro agrega todos los archivos, es una forma rapida de trabajar, pero usala con cuidado.
+
 `git commit -m "Mensaje del Commit"`  
 Confirma e inserta los cambios existentes en el area de ensayo junto al mensaje, el autor, correo, fecha de inserción y otros datos. Repite este proceso cuantas veces sea necesario.
 
