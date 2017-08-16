@@ -3,8 +3,8 @@
 ### Si es tu primera vez
 
 1. Haz un fork a este repositorio
-2. En tu sistema local, haz un `git clone git@github.com:tu-usuario/epale-bot.git` donde usuario es tu usuario en github.
-3. Incluye el remoto original (upstream) del cual hiciste el fork:  `git remote add upstream git@github.com:adeluccar/epale-bot.git`
+2. En tu sistema local, haz un `git clone git@github.com:tu-usuario/epale-bot.git` donde usuario es tu usuario en github si ya posees una llave SSH. O clona el repositorio mediante HTTPS ejecutando el comando `git clone https://github.com/tu-usuario/epale-bot.git`
+3. Incluye el remoto original (upstream) del cual hiciste el fork:  `git remote add upstream git@github.com:adeluccar/epale-bot.git`. También puedes hacer esto mediante HTTPS ejecutando el comando `git remote add upstream https://github.com/adeluccar/epale-bot.git`
 
 ### Cuando comienza el día
 
