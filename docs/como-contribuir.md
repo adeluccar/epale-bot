@@ -58,3 +58,16 @@ Es buena idea repetir los pasos para actualizar la rama con el master (comienzo 
 Sube los cambios existentes en la rama branch-name al repo remoto personal en Github. Se utiliza el switch `-u` la primera vez que se hace, para que subidas posteriores de esa rama puedan realizarse con un simple `git push`.
 
 Luego, en la interfaz de github, ejecutas una pull-request desde esa rama tu-rama hacia el master en el repositorio autoritario (el upstream). Una vez que la rama es incluida en el master del repo autoritario, puede borrarse a nivel local, pues los cambios serán actualizados en el master local a través del proceso al inicio del día.
+
+## Instalacion node-js
+
+### Windows
+Entra en la pagina de node-js en [Este Enlace](https://nodejs.org) y allí encontraras el boton para descargar, simplemente sigue las instrucciones.
+A partir de ahora, para ejecutar "Node" tienes que irte a la línea de comandos de Windows e introducir el comando "node".
+
+### Linux (Debian y derivadas)
+Ejecutar el siguiente comando desde la terminal: `sudo apt install nodejs-legacy`
+Se recomienda usar el nodejs-legacy por problemas con la version normal
+
+### Mac
+Al igual que en Windows se puede hacer desde Este Enlace](https://nodejs.org) y allí encontraras el boton para descargar.
