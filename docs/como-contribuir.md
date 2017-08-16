@@ -61,13 +61,13 @@ Luego, en la interfaz de github, ejecutas una pull-request desde esa rama tu-ram
 
 ## Instalacion node-js
 
-###Windows
-Entra en la pagina de node-js en [Este Enlace][https://nodejs.org] y allí encontraras el boton para descargar, simplemente sigue las instrucciones.
+### Windows
+Entra en la pagina de node-js en [Este Enlace](https://nodejs.org) y allí encontraras el boton para descargar, simplemente sigue las instrucciones.
 A partir de ahora, para ejecutar "Node" tienes que irte a la línea de comandos de Windows e introducir el comando "node".
 
-###Linux (Debian y derivadas)
+### Linux (Debian y derivadas)
 Ejecutar el siguiente comando desde la terminal: `sudo apt install nodejs-legacy`
 Se recomienda usar el nodejs-legacy por problemas con la version normal
 
-###Mac
-Al igual que en Windows se puede hacer desde Este Enlace][https://nodejs.org] y allí encontraras el boton para descargar.
+### Mac
+Al igual que en Windows se puede hacer desde Este Enlace](https://nodejs.org) y allí encontraras el boton para descargar.
