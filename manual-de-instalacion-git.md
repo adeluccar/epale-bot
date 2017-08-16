@@ -1,4 +1,4 @@
-Manual de uso para Git  
+Manual de uso para Git
  
 Manual para uso de Git, antes de comenzar primero debemos realizar la instalación de git para eso te dejamos un link con los pasos para realizar las instalaciones en los diferentes sistemas operativos: https://www.hostinger.es/tutoriales/instalar-git-en-distintos-sistemas-operativos. 
  
