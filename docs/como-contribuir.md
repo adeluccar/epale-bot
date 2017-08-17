@@ -1,5 +1,7 @@
 ## ¿Como contribuir?
 
+[Video Paso a Paso](https://www.youtube.com/watch?v=BJStp9ApkXs)
+
 ### Si es tu primera vez
 
 1. Haz un fork a este repositorio
