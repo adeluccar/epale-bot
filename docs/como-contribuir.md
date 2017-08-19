@@ -56,6 +56,20 @@ Confirma e inserta los cambios existentes en el area de ensayo junto al mensaje,
 
 Es buena idea repetir los pasos para actualizar la rama con el master (comienzo del día) antes de comenzar el proceso de preparar el pull request.
 
+Luego, hay que hacer un squash de todos los commits para dejar la rama con un solo commit. El efecto secundario (positivo) de esto es que cuando se hacemos la fusión de la rama hacia el master, entra un solo commit. Eso mantiene la historia bastante limpia.
+
+[Video paso a paso del squash de un rama](https://www.youtube.com/watch?v=lRCBHRbm-to)
+
+`git reset --hard HEAD~X`  
+Donde X es el numero de commits entre el primero y ultimo de la rama.
+Es decir, si has hecho dos commits, X sería 2.
+
+`git merge --squash HEAD@{1}`  
+HEAD@{1} es una sintax especial para el commit donde estaba HEAD antes del reset anterior. Basicamente estamos diciendo, haz un merge desde donde estoy hasta donde empezó el reset.
+
+`git commit -v`  
+Haz el commit con todos los cambios. La ventaja de este metodo es que los commits previos apareceran en la descripción de este commit final.
+
 `git push -u origin tu-rama`  
 Sube los cambios existentes en la rama branch-name al repo remoto personal en Github. Se utiliza el switch `-u` la primera vez que se hace, para que subidas posteriores de esa rama puedan realizarse con un simple `git push`.
 
