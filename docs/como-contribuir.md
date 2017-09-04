@@ -10,9 +10,12 @@
 
 ### Cuando comienza el día
 
+Es buena idea hacer un `npm install` siempre que fusiones cambios nuevos del repositorio (recuerda que el repositorio indica lo que 'debe haber' mas no lo instala por ti).
+
 `git checkout master`  
 `git fetch upstream`  
 `git rebase upstream/master`  
+`npm install`
 `git checkout tu-rama`  
 `git rebase master`  
 
