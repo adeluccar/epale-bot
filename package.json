@@ -5,7 +5,7 @@
     "node": "6.11.2"
   },
   "description": "Un bot para saludar a los nuevos integrantes del chat Fcc Caracas en Telegram.",
-  "main": "index.js",
+  "main": "bot.js",
   "directories": {
     "doc": "docs"
   },
