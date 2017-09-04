@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/adeluccar/epale-bot/issues"
   },
-  "homepage": "https://github.com/adeluccar/epale-bot#readme"
+  "homepage": "https://github.com/adeluccar/epale-bot#readme",
+  "devDependencies": {
+    "eslint": "^=3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
 }
