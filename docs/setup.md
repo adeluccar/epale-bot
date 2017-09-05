@@ -6,44 +6,48 @@
 3. Ejecutar y seguir los pasos del instalador(con las opciones por defecto).
 
 ### Linux
-1. Vamos a [Pagina oficial de Node.js](https://nodejs.org/es/) y hacemos click en "INSTALL". Descargaremos un .tar.gz.
 
-2. Descomprimimos el archivo y veremos una carpeta como la siguiente:
-`node-v0.10.13`
+Este metodo de instalacion es mediante gestores de paquetes.
+Como queremos la version LTS, realizaremos los siguientes pasos
 
-3. Entramos dentro de la carpeta:
+#### Distros de Linux basadas en Debian y Ubuntu
 
-```bash
-cd node-v0.10.13/
-```
-
-4. Ejecutamos los siguientes comandos:
 
 ```bash
-./configure
-make
-sudo make install
+> curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+> sudo apt-get install -y nodejs
 ```
 
-5. Comprobamos que se ha instalado correctamente:
+#### Arch Linux
+
 
 ```bash
-node --version
+> pacman -S nodejs npm
 ```
 
-6. Instalamos npm:
+Con esto ya tendremos node y npm. Para verificar realizamos lo siguiente:
 
 ```bash
-wget https://npmjs.org/install.sh --no-check-certificate; sudo sh install.sh
+> node -v
+v6.11.2
+> npm -v
+3.10.10
 ```
 
-7. Comprobamos que se ha instalado correctamente:
+#### IMPORTANTE
+
+En caso de que `npm -v` les arroje otra version, pueden cambiarla haciendo
 
 ```bash
-npm --version
+> npm install -g npm@3.10.10
+... si esto les da error por falta de permisos
+... ejecutenlo como sudo (en debian/ubuntu)
+> npm -v
+3.10.10
 ```
 
-Bien, ya tenemos instalado node.js y npm en nuestra máquina.
+Bien, ya tenemos instalado node.js y npm en nuestra máquina. Cualquier
+inconveniente, visitar [esta pagina](https://nodejs.org/es/download/package-manager/)
 
 ### Mac
 La mejor forma de instalar node en Mac es usando un gestor de ambientes node (en este caso, nodenv). Esta forma de instalar permite utilizar una versión de node especifica para cada proyecto.
